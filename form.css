@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: "cardo";
+    src: url("cardo/cardo-bold.woff") format("woff"), url("cardo/cardo-italic.woff") format("woff"), url("cardo/cardo-regular.woff") format("woff");
+}
+
+* {
+    font-family: "cardo";
+}
+
+.header {
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_responsive {
+    width: 100%;
+    height: auto;
+}
+
+.menu_header {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(#c7c7c7, #c7c7c7, white);
+    color: black;
+    text-align: center;
+}
+
+fieldset {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    min-width: 200px;
+    max-width: 500px;
+    text-align: left;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.h1 {
+    font-size: 2em;
+    background: linear-gradient(#c7c7c7, #c7c7c7, white, white);
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.name {
+    width: 40%;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+input {
+    margin: 15px 0 15px 0;
+    width: 95%;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 8px;
+    transition: .1s box-shadow;
+}
+
+input:hover {
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+
+select {
+    margin: 15px 0 15px 0;
+    width: 55%;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 8px;
+    transition: .1s ;
+}
+
+select:hover {
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+
+
+
+.button {
+    font-family: "roboto";
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: baseline;
+    display: block;
+    margin-top: 5px;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 90%;
+    min-width: 200px;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 20px;
+    transition: .1s ;
+}
+
+.button:hover {
+    background-color: #c5f88a;
+}

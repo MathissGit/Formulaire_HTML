@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "cardo";
+    src: url("cardo/cardo-bold.woff") format("woff"), url("cardo/cardo-italic.woff") format("woff"), url("cardo/cardo-regular.woff") format("woff");
+}
+
+* {
+    font-family: "cardo";
+}
+
+.header {
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_responsive {
+    width: 100%;
+    height: auto;
+}
+
+.menu_header {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: #c7c7c7;
+    color: black;
+    text-align: center;
+}
